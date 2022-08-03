@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'taggit',  # to initialize tagging functionality
     'django.contrib.sites',
     'django.contrib.sitemaps',
-    'django.contrib.postgres',
+    'django.contrib.postgres', # to import SearchVector
 ]
 
 MIDDLEWARE = [
